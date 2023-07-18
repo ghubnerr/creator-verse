@@ -8,10 +8,11 @@ export default function Header() {
         >
           
         </div>
-        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+        <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-54">
           <div className="text-center">
             <h1 className="flex justify-center text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              <img src='./icons8-sparkles-48.png/'/> Creatorverse
+              <img src='./icons8-sparkles-48.png/'/>               
+              Creatorverse
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
