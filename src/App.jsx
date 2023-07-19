@@ -43,9 +43,9 @@ export default function App() {
         <Header/>
         <Routes>
           <Route exact path='/'/>
-          {creators && <Route path='/show-creators' element={<ShowCreators creators={creators}/>} />}
-          <Route path='/add-creator' element={<AddCreator />} />
-          <Route path='/edit-creator' element={<EditCreator />} />
+          {creators && <Route path='/show-creators' element={<ShowCreators creators={creators} setCreators={setCreators}/>} />}
+          <Route path='/add-creator' element={<AddCreator setCreators={setCreators} />} />
+          {creators && <Route path='/edit-creator/:id' element={<EditCreator creators={creators} setCreators={setCreators}/>} />}
           {creators && <Route path='/view-creator/:id' element={<ViewCreator creators={creators} />} />}
         </Routes>
         <Footer />

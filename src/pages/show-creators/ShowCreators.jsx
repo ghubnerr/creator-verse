@@ -4,7 +4,7 @@
     return (
       
       <div>
-        <div className="bg-gradient-to-b from-slate-900 to-slate-700">
+        <div className="bg-gradient-to-b from-slate-900 to-gray-900">
           <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
             <div id="best" className='flex justify-center items-center'>
               <img src='./icons8-sparkles-48.png/' className='max-w-10 max-h-10'/>               
