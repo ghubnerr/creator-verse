@@ -6,7 +6,8 @@
       <div>
         <div className="bg-gradient-to-b from-slate-900 to-slate-700">
           <div className="mx-auto max-w-2xl px-4 py-10 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
-            <div className='flex justify-center'>
+            <div id="best" className='flex justify-center items-center'>
+              <img src='./icons8-sparkles-48.png/' className='max-w-10 max-h-10'/>               
               <h2 className="text-gray-100 my-9 font-bold text-4xl">Best Creators</h2>
             </div>
 

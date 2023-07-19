@@ -42,7 +42,7 @@ export default function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route exact path='/' element={<Header />} />
+          <Route exact path='/'/>
           {creators && <Route path='/show-creators' element={<ShowCreators creators={creators}/>} />}
           <Route path='/add-creator' element={<AddCreator />} />
           <Route path='/edit-creator' element={<EditCreator />} />
