@@ -10,7 +10,6 @@ Time spent: **8-10** hours
 
 The following **required** functionality is completed:
 
-<!-- 👉🏿👉🏿👉🏿 Make sure to check off completed functionality below -->
 - [X] **A logical component structure in React is used to create the frontend of the app**
 - [X] **At least five content creators are displayed on the homepage of the app**
 - [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
@@ -35,7 +34,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-👉🏿<img src='' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
+<img src='Walkthrough.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
 
 GIF created with LiceCap
 
