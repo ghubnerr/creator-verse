@@ -18,7 +18,7 @@ export default function Header() {
             </h1>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                to="/show-creators#best"
+                to="/show-creators"
                 className="rounded-md bg-orange-600 px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 View All Creators

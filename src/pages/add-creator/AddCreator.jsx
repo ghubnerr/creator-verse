@@ -42,7 +42,7 @@ export default function AddCreator( {setCreators }){
             <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8 bg-gradient-to-b from-slate-900 to-gray-900">
                 <div className='mt-10 sm:mx-auto sm:w-full lg:max-w-lg md:max-w-md sm:max-w-sm bg-white px-14 py-14 rounded-lg'>
                     <div className='flex justify-center'>
-                        <h1 className='mb-9 text-4xl font-bold'>Add a Creator</h1>
+                        <h1 id='add' className='mb-9 text-4xl font-bold'>Add a Creator</h1>
                     </div>
                     <form className='bg-white' onSubmit={handleFormSubmit}>
                         <div className="space-y-12">
